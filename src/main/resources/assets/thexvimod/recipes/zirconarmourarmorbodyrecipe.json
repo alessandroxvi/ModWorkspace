@@ -1,0 +1,39 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:zircon"
+    },
+    "2": {
+      "item": "thexvimod:zircon"
+    },
+    "3": {
+      "item": "thexvimod:zircon"
+    },
+    "4": {
+      "item": "thexvimod:zircon"
+    },
+    "5": {
+      "item": "thexvimod:zircon"
+    },
+    "6": {
+      "item": "thexvimod:zircon"
+    },
+    "7": {
+      "item": "thexvimod:zircon"
+    },
+    "8": {
+      "item": "thexvimod:zircon"
+    }
+  },
+  "result": {
+    "item": "thexvimod:zirconarmourarmorbody",
+    "count": 1
+  }
+}

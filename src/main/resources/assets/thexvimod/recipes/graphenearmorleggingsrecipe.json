@@ -1,0 +1,36 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "1": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "2": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "3": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "5": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "6": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "8": {
+      "item": "thexvimod:grapheneingot"
+    }
+  },
+  "result": {
+    "item": "thexvimod:graphenearmorlegs",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "1": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "thexvimod:graphenesword",
+    "count": 1
+  }
+}

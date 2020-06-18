@@ -1,0 +1,30 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "1": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "2": {
+      "item": "thexvimod:grapheneingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "thexvimod:graphenepickaxe",
+    "count": 1
+  }
+}

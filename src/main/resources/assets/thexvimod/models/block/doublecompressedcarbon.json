@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thexvimod:blocks/doublecompressedcarbon",
+    "up": "thexvimod:blocks/doublecompressedcarbon",
+    "north": "thexvimod:blocks/doublecompressedcarbon",
+    "east": "thexvimod:blocks/doublecompressedcarbon",
+    "south": "thexvimod:blocks/doublecompressedcarbon",
+    "west": "thexvimod:blocks/doublecompressedcarbon",
+    "particle": "thexvimod:blocks/doublecompressedcarbon"
+  }
+}

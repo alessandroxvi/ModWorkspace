@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "zircontools_sword",
+    "customModelName": "Normal",
+    "name": "Zircon Sword",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 10.0,
+    "attackSpeed": 3.0,
+    "enchantability": 15,
+    "damageVsEntity": 9.0,
+    "usageCount": 6900,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

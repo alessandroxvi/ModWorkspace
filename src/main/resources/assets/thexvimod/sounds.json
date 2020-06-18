@@ -1,0 +1,11 @@
+{
+  "earfquake": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "thexvimod:arfquake",
+        "stream": true
+      }
+    ]
+  }
+}

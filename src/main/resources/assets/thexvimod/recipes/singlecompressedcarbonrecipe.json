@@ -1,0 +1,26 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:carboningot"
+    },
+    "1": {
+      "item": "thexvimod:carboningot"
+    },
+    "2": {
+      "item": "thexvimod:carboningot"
+    },
+    "3": {
+      "item": "thexvimod:carboningot"
+    }
+  },
+  "result": {
+    "item": "thexvimod:singlecompressedcarbon",
+    "count": 1
+  }
+}

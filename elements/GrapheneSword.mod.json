@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "graphene_sword",
+    "customModelName": "Normal",
+    "name": "Graphene Sword",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 10.0,
+    "attackSpeed": 4.0,
+    "enchantability": 20,
+    "damageVsEntity": 10.0,
+    "usageCount": 4269,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

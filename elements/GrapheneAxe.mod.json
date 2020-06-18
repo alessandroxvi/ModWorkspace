@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "graphene_axe",
+    "customModelName": "Normal",
+    "name": "Graphene Axe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 15.0,
+    "attackSpeed": 4.0,
+    "enchantability": 20,
+    "damageVsEntity": 9.0,
+    "usageCount": 4269,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

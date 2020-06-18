@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "zircontools_pickaxe",
+    "customModelName": "Normal",
+    "name": "ZirconPickaxe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 2.0,
+    "usageCount": 6900,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

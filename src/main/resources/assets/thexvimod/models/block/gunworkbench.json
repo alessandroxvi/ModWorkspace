@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thexvimod:blocks/carbonblock",
+    "up": "thexvimod:blocks/carbonblock",
+    "north": "thexvimod:blocks/gunassembly",
+    "east": "thexvimod:blocks/carbonblock",
+    "south": "thexvimod:blocks/carbonblock",
+    "west": "thexvimod:blocks/carbonblock",
+    "particle": "thexvimod:blocks/carbonblock"
+  }
+}

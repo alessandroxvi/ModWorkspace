@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "earfquake",
+    "name": "Earfquake",
+    "description": "Cause you make my earfquake",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:earfquake"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

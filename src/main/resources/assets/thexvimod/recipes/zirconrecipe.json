@@ -1,0 +1,19 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "thexvimod:zircon",
+    "count": 1
+  }
+}

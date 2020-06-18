@@ -1,0 +1,17 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:carboningot"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal",
+    "data": 0,
+    "count": 3
+  }
+}

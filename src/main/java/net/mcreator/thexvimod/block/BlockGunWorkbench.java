@@ -11,8 +11,6 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.NonNullList;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.tileentity.TileEntityLockableLoot;
 import net.minecraft.tileentity.TileEntity;
@@ -24,6 +22,7 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.InventoryHelper;
+import net.minecraft.inventory.ContainerChest;
 import net.minecraft.inventory.Container;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.entity.player.EntityPlayer;
@@ -35,8 +34,6 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.Block;
 
-import net.mcreator.thexvimod.gui.GuiGunworkbenchgui;
-import net.mcreator.thexvimod.TheXVImod;
 import net.mcreator.thexvimod.ElementsTheXVImod;
 
 @ElementsTheXVImod.ModElement.Tag
@@ -44,7 +41,7 @@ public class BlockGunWorkbench extends ElementsTheXVImod.ModElement {
 	@GameRegistry.ObjectHolder("thexvimod:gunworkbench")
 	public static final Block block = null;
 	public BlockGunWorkbench(ElementsTheXVImod instance) {
-		super(instance, 50);
+		super(instance, 55);
 	}
 
 	@Override
@@ -65,7 +62,7 @@ public class BlockGunWorkbench extends ElementsTheXVImod.ModElement {
 	}
 	public static class BlockCustom extends Block implements ITileEntityProvider {
 		public BlockCustom() {
-			super(Material.ROCK);
+			super(Material.IRON);
 			setUnlocalizedName("gunworkbench");
 			setSoundType(SoundType.METAL);
 			setHarvestLevel("pickaxe", 0);
@@ -120,26 +117,13 @@ public class BlockGunWorkbench extends ElementsTheXVImod.ModElement {
 			else
 				return 0;
 		}
-
-		@Override
-		public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer entity, EnumHand hand, EnumFacing direction,
-				float hitX, float hitY, float hitZ) {
-			super.onBlockActivated(world, pos, state, entity, hand, direction, hitX, hitY, hitZ);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			if (entity instanceof EntityPlayer) {
-				((EntityPlayer) entity).openGui(TheXVImod.instance, GuiGunworkbenchgui.GUIID, world, x, y, z);
-			}
-			return true;
-		}
 	}
 
 	public static class TileEntityCustom extends TileEntityLockableLoot {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(10, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(3, ItemStack.EMPTY);
 		@Override
 		public int getSizeInventory() {
-			return 10;
+			return 3;
 		}
 
 		@Override
@@ -213,8 +197,8 @@ public class BlockGunWorkbench extends ElementsTheXVImod.ModElement {
 
 		@Override
 		public Container createContainer(InventoryPlayer playerInventory, EntityPlayer playerIn) {
-			return new GuiGunworkbenchgui.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(),
-					playerIn);
+			this.fillWithLoot(playerIn);
+			return new ContainerChest(playerInventory, this, playerIn);
 		}
 
 		@Override

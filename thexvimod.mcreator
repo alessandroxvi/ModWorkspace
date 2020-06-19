@@ -1,7 +1,7 @@
 {
   "id_map": {
     "ENTITY": 1,
-    "GUI": 1
+    "GUI": 3
   },
   "mod_elements": [
     {
@@ -409,24 +409,6 @@
       "ids": {}
     },
     {
-      "name": "GunWorkbench",
-      "type": "block",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Gunworkbenchgui",
-      "type": "gui",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 1
-      }
-    },
-    {
       "name": "BlowDartGun",
       "type": "gun",
       "sortid": 52,
@@ -448,6 +430,14 @@
       "name": "CarvingKnifeRecipe",
       "type": "recipe",
       "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GunWorkbench",
+      "type": "block",
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {}

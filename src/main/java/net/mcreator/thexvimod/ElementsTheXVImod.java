@@ -34,8 +34,6 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
-import net.mcreator.thexvimod.gui.GuiGunworkbenchgui;
-
 import java.util.function.Supplier;
 import java.util.Random;
 import java.util.Map;
@@ -125,15 +123,11 @@ public class ElementsTheXVImod implements IFuelHandler, IWorldGenerator {
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
-			if (id == GuiGunworkbenchgui.GUIID)
-				return new GuiGunworkbenchgui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
-			if (id == GuiGunworkbenchgui.GUIID)
-				return new GuiGunworkbenchgui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

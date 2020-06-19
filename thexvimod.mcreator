@@ -441,6 +441,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Reinforcedcobblestone",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -480,6 +488,7 @@
       "tile.zirconore.name": "Zircon Ore",
       "item.zirconarmourarmorlegs.name": "ZirconLeggings",
       "item.earfquake.name": "Earfquake",
+      "tile.reinforcedcobblestone.name": "Reinforcedcobblestone",
       "item.graphenearmorhelmet.name": "Graphene Helmet",
       "item.zircontoolsaxe.name": "ZirconAxe",
       "tile.doublecompressedcarbon.name": "Double Compressed Carbon",

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thexvimod:blocks/reinforcedcobble1",
+    "up": "thexvimod:blocks/reinforcedcobble1",
+    "north": "thexvimod:blocks/reinforcedcobble1",
+    "east": "thexvimod:blocks/reinforcedcobble1",
+    "south": "thexvimod:blocks/reinforcedcobble1",
+    "west": "thexvimod:blocks/reinforcedcobble1",
+    "particle": "thexvimod:blocks/reinforcedcobble1"
+  }
+}

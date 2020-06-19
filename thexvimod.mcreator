@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "ENTITY": 1,
+    "ENTITY": 3,
     "GUI": 6
   },
   "mod_elements": [
@@ -459,14 +459,6 @@
       "ids": {}
     },
     {
-      "name": "Guncrafter",
-      "type": "block",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "GrapheneBlock",
       "type": "block",
       "sortid": 60,
@@ -505,6 +497,17 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Herobrine",
+      "type": "mob",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2,
+        "1": 3
+      }
     }
   ],
   "variable_elements": [],
@@ -525,6 +528,7 @@
       "tile.compressor.name": "Compressor",
       "advancements.getzircon.descr": "Obtain Zircon",
       "item.graphenearmorboots.name": "Graphene Boots",
+      "entity.herobrine.name": "Charles",
       "item.blowdartgun.name": "Blow Dart Gun",
       "item.graphenearmorbody.name": "Graphene Chestplate",
       "advancements.getzircon.title": "Get Zircon",
@@ -548,13 +552,12 @@
       "item.earfquake.name": "Earfquake",
       "tile.reinforcedcobblestone.name": "Reinforcedcobblestone",
       "item.graphenearmorhelmet.name": "Graphene Helmet",
-      "tile.triplecompressedcarbon.name": "Triple Compressed Carbon",
+      "tile.triplecompressedcarbon.name": "Triple Compressed Carbon Block",
       "item.zircontoolsaxe.name": "ZirconAxe",
       "tile.doublecompressedcarbon.name": "Double Compressed Carbon",
       "item.grapheneingot.name": "Graphene Ingot",
       "item.graphenesword.name": "Graphene Sword",
-      "item.grapheneshovel.name": "Graphene Shovel",
-      "tile.guncrafter.name": "Guncrafter"
+      "item.grapheneshovel.name": "Graphene Shovel"
     }
   },
   "workspaceSettings": {

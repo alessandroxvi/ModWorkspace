@@ -537,6 +537,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Opla",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -568,6 +576,7 @@
       "item.graphenepickaxe.name": "Graphene Pickaxe",
       "tile.carbon.name": "Carbon",
       "tile.zirconblock.name": "Zircon block",
+      "item.opla.name": "Opal",
       "item.zircon.name": "Zircon",
       "item.zircontoolshoe.name": "ZirconHoe",
       "item.zirconarmourarmorbody.name": "ZirconChestplate",

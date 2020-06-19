@@ -521,7 +521,7 @@
       "name": "SkiddaleSkidoodlePotionStartedapplied",
       "type": "procedure",
       "sortid": 61,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "metadata": {

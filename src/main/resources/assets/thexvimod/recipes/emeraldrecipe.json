@@ -1,0 +1,27 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "thexvimod:triplecompressedcarbon"
+    },
+    "3": {
+      "item": "thexvimod:triplecompressedcarbon"
+    },
+    "5": {
+      "item": "thexvimod:triplecompressedcarbon"
+    },
+    "7": {
+      "item": "thexvimod:triplecompressedcarbon"
+    }
+  },
+  "result": {
+    "item": "minecraft:emerald",
+    "count": 1
+  }
+}

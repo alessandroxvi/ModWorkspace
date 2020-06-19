@@ -481,6 +481,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Muramasa",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -519,6 +527,7 @@
       "item.carboningot.name": "Carbon Ingot",
       "item.graphenesheet.name": "Graphene Sheet",
       "item.zirconarmourarmorboots.name": "ZirconBoots",
+      "item.muramasa.name": "Muramasa",
       "tile.zirconore.name": "Zircon Ore",
       "item.zirconarmourarmorlegs.name": "ZirconLeggings",
       "item.earfquake.name": "Earfquake",

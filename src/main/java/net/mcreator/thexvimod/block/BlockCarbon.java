@@ -53,11 +53,11 @@ public class BlockCarbon extends ElementsTheXVImod.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 7; i++) {
 			int x = chunkX + random.nextInt(16);
 			int y = random.nextInt(64) + 0;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 16, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 12, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;

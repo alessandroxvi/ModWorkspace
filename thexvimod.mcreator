@@ -499,17 +499,6 @@
       "ids": {}
     },
     {
-      "name": "Herobrine",
-      "type": "mob",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 2,
-        "1": 3
-      }
-    },
-    {
       "name": "SkiddaleSkidoodle",
       "type": "potion",
       "sortid": 61,
@@ -598,6 +587,7 @@
       "item.carboningot.name": "Carbon Ingot",
       "item.graphenesheet.name": "Graphene Sheet",
       "item.zirconarmourarmorboots.name": "ZirconBoots",
+      "item.muramasa.name": "Muramasa",
       "tile.zirconore.name": "Zircon Ore",
       "item.zirconarmourarmorlegs.name": "ZirconLeggings",
       "item.earfquake.name": "Earfquake",

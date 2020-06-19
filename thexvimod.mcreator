@@ -1,7 +1,7 @@
 {
   "id_map": {
     "ENTITY": 1,
-    "GUI": 3
+    "GUI": 6
   },
   "mod_elements": [
     {
@@ -435,17 +435,17 @@
       "ids": {}
     },
     {
-      "name": "GunWorkbench",
+      "name": "Reinforcedcobblestone",
       "type": "block",
-      "sortid": 55,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "Reinforcedcobblestone",
+      "name": "Guncrafter",
       "type": "block",
-      "sortid": 56,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -462,6 +462,30 @@
       "name": "Pistonhead",
       "type": "item",
       "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GrapheneBlock",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TripleCompressedCarbon",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Trippelcompressedcarbonrecipe",
+      "type": "recipe",
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -489,7 +513,6 @@
       "item.graphenearmorbody.name": "Graphene Chestplate",
       "advancements.getzircon.title": "Get Zircon",
       "item.zirconarmourarmorhelmet.name": "ZirconHelmet",
-      "tile.gunworkbench.name": "Gun Workbench",
       "item.zircontoolsshovel.name": "ZirconShovel",
       "item.pistonhead.name": "Pistonhead",
       "item.graphenepickaxe.name": "Graphene Pickaxe",
@@ -497,6 +520,7 @@
       "item.zircon.name": "Zircon",
       "item.zircontoolshoe.name": "ZirconHoe",
       "item.zirconarmourarmorbody.name": "ZirconChestplate",
+      "tile.grapheneblock.name": "Graphene Block",
       "item.record.earfquake.desc": "Cause you make my earfquake",
       "item.carvingknife.name": "Carving Knife",
       "item.zircontoolssword.name": "Zircon Sword",
@@ -508,11 +532,13 @@
       "item.earfquake.name": "Earfquake",
       "tile.reinforcedcobblestone.name": "Reinforcedcobblestone",
       "item.graphenearmorhelmet.name": "Graphene Helmet",
+      "tile.triplecompressedcarbon.name": "Triple Compressed Carbon",
       "item.zircontoolsaxe.name": "ZirconAxe",
       "tile.doublecompressedcarbon.name": "Double Compressed Carbon",
       "item.grapheneingot.name": "Graphene Ingot",
       "item.graphenesword.name": "Graphene Sword",
-      "item.grapheneshovel.name": "Graphene Shovel"
+      "item.grapheneshovel.name": "Graphene Shovel",
+      "tile.guncrafter.name": "Guncrafter"
     }
   },
   "workspaceSettings": {

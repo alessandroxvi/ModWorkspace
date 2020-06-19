@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thexvimod:blocks/grapheneblock",
+    "up": "thexvimod:blocks/grapheneblock",
+    "north": "thexvimod:blocks/grapheneblock",
+    "east": "thexvimod:blocks/grapheneblock",
+    "south": "thexvimod:blocks/grapheneblock",
+    "west": "thexvimod:blocks/grapheneblock",
+    "particle": "thexvimod:blocks/grapheneblock"
+  }
+}

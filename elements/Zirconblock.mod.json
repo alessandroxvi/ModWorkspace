@@ -34,7 +34,7 @@
       "value": ""
     },
     "dropAmount": 1,
-    "isBeaconBase": false,
+    "isBeaconBase": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,

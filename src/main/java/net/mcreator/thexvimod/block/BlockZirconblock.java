@@ -8,6 +8,8 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.World;
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.creativetab.CreativeTabs;
@@ -53,6 +55,11 @@ public class BlockZirconblock extends ElementsTheXVImod.ModElement {
 		@Override
 		public int tickRate(World world) {
 			return 0;
+		}
+
+		@Override
+		public boolean isBeaconBase(IBlockAccess worldObj, BlockPos pos, BlockPos beacon) {
+			return true;
 		}
 	}
 }

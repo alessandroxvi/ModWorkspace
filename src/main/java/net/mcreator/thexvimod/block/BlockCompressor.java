@@ -19,36 +19,34 @@ import net.minecraft.block.Block;
 import net.mcreator.thexvimod.ElementsTheXVImod;
 
 @ElementsTheXVImod.ModElement.Tag
-public class BlockReinforcedcobblestone extends ElementsTheXVImod.ModElement {
-	@GameRegistry.ObjectHolder("thexvimod:reinforcedcobblestone")
+public class BlockCompressor extends ElementsTheXVImod.ModElement {
+	@GameRegistry.ObjectHolder("thexvimod:compressor")
 	public static final Block block = null;
-	public BlockReinforcedcobblestone(ElementsTheXVImod instance) {
-		super(instance, 56);
+	public BlockCompressor(ElementsTheXVImod instance) {
+		super(instance, 57);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("reinforcedcobblestone"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("compressor"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("thexvimod:reinforcedcobblestone", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("thexvimod:compressor", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.ROCK);
-			setUnlocalizedName("reinforcedcobblestone");
-			setSoundType(SoundType.STONE);
-			setHarvestLevel("pickaxe", 2);
-			setHardness(5F);
-			setResistance(40F);
+			super(Material.IRON);
+			setUnlocalizedName("compressor");
+			setSoundType(SoundType.METAL);
+			setHardness(1F);
+			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+			setCreativeTab(CreativeTabs.DECORATIONS);
 		}
 
 		@Override

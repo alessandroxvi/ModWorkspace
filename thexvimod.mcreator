@@ -513,6 +513,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Zirconblock",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -542,6 +550,7 @@
       "item.pistonhead.name": "Pistonhead",
       "item.graphenepickaxe.name": "Graphene Pickaxe",
       "tile.carbon.name": "Carbon",
+      "tile.zirconblock.name": "Zirconblock",
       "item.zircon.name": "Zircon",
       "item.zircontoolshoe.name": "ZirconHoe",
       "item.zirconarmourarmorbody.name": "ZirconChestplate",

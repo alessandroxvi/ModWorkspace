@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thexvimod:blocks/zircon",
+    "up": "thexvimod:blocks/zircon",
+    "north": "thexvimod:blocks/zircon",
+    "east": "thexvimod:blocks/zircon",
+    "south": "thexvimod:blocks/zircon",
+    "west": "thexvimod:blocks/zircon",
+    "particle": "thexvimod:blocks/zircon"
+  }
+}

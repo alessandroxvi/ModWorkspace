@@ -22,7 +22,7 @@
     "faceShape": "SOLID",
     "name": "Opalore",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
@@ -31,7 +31,7 @@
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Opla"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -58,9 +58,9 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 1.0,
+    "luminance": 0.49,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

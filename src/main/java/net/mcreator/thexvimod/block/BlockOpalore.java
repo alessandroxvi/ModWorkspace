@@ -11,7 +11,10 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.World;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.NonNullList;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.init.Blocks;
@@ -22,6 +25,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.thexvimod.item.ItemOpla;
 import net.mcreator.thexvimod.ElementsTheXVImod;
 
 import java.util.Random;
@@ -73,10 +77,10 @@ public class BlockOpalore extends ElementsTheXVImod.ModElement {
 			super(Material.ROCK);
 			setUnlocalizedName("opalore");
 			setSoundType(SoundType.STONE);
-			setHarvestLevel("pickaxe", 3);
-			setHardness(1F);
+			setHarvestLevel("pickaxe", 2);
+			setHardness(5F);
 			setResistance(10F);
-			setLightLevel(1F);
+			setLightLevel(0.49F);
 			setLightOpacity(255);
 			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		}
@@ -84,6 +88,11 @@ public class BlockOpalore extends ElementsTheXVImod.ModElement {
 		@Override
 		public int tickRate(World world) {
 			return 1;
+		}
+
+		@Override
+		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
+			drops.add(new ItemStack(ItemOpla.block, (int) (1)));
 		}
 	}
 }

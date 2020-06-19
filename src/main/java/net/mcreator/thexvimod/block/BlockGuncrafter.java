@@ -1,27 +1,12 @@
 
 package net.mcreator.thexvimod.block;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.Block;
-
-import net.mcreator.thexvimod.ElementsTheXVImod;
-
 @ElementsTheXVImod.ModElement.Tag
 public class BlockGuncrafter extends ElementsTheXVImod.ModElement {
+
 	@GameRegistry.ObjectHolder("thexvimod:guncrafter")
 	public static final Block block = null;
+
 	public BlockGuncrafter(ElementsTheXVImod instance) {
 		super(instance, 59);
 	}
@@ -36,23 +21,32 @@ public class BlockGuncrafter extends ElementsTheXVImod.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("thexvimod:guncrafter", "inventory"));
+
 	}
+
 	public static class BlockCustom extends Block {
+
 		public BlockCustom() {
 			super(Material.IRON);
+
 			setUnlocalizedName("guncrafter");
 			setSoundType(SoundType.GROUND);
+
 			setHarvestLevel("pickaxe", 1);
+
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+
 		}
 
 		@Override
 		public int tickRate(World world) {
 			return 0;
 		}
+
 	}
+
 }

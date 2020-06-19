@@ -443,14 +443,6 @@
       "ids": {}
     },
     {
-      "name": "Guncrafter",
-      "type": "block",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Compressor",
       "type": "block",
       "sortid": 57,
@@ -462,6 +454,14 @@
       "name": "Pistonhead",
       "type": "item",
       "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Guncrafter",
+      "type": "block",
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -486,6 +486,22 @@
       "name": "Trippelcompressedcarbonrecipe",
       "type": "recipe",
       "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CompressorRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Pistoneheadrecipe",
+      "type": "recipe",
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {}

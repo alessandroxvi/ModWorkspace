@@ -18,28 +18,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:TripleCompressedCarbon"
+        "value": "CUSTOM:DoubleCompressedCarbon"
       },
       {
-        "value": "CUSTOM:TripleCompressedCarbon"
+        "value": "CUSTOM:DoubleCompressedCarbon"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:TripleCompressedCarbon"
+        "value": "CUSTOM:DoubleCompressedCarbon"
       },
       {
-        "value": "CUSTOM:TripleCompressedCarbon"
+        "value": "CUSTOM:DoubleCompressedCarbon"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.DIAMOND"
+      "value": "CUSTOM:TripleCompressedCarbon"
     },
-    "name": "diamondrecipe",
+    "name": "trippelcompressedcarbonrecipe",
     "namespace": "mod"
   }
 }

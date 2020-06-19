@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 3,
+    "GUI": 6,
     "ENTITY": 1
   },
   "mod_elements": [
@@ -435,14 +435,6 @@
       "ids": {}
     },
     {
-      "name": "GunWorkbench",
-      "type": "block",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Reinforcedcobblestone",
       "type": "block",
       "sortid": 56,
@@ -483,6 +475,14 @@
       "ids": {}
     },
     {
+      "name": "SkiddaleSkidoodle",
+      "type": "potion",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "SkiddaleSkidoodlePotionStartedapplied",
       "type": "procedure",
       "sortid": 61,
@@ -515,9 +515,41 @@
       }
     },
     {
-      "name": "SkiddaleSkidoodle",
-      "type": "potion",
+      "name": "Guncrafter",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GrapheneBlock",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TripleCompressedCarbon",
+      "type": "block",
       "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Muramasa",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Trippelcompressedcarbonrecipe",
+      "type": "recipe",
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {}

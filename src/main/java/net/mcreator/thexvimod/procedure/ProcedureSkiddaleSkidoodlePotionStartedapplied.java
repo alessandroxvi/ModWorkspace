@@ -1,18 +1,8 @@
 package net.mcreator.thexvimod.procedure;
 
-import net.minecraft.world.World;
-import net.minecraft.util.SoundCategory;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.potion.PotionEffect;
-import net.minecraft.init.MobEffects;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.thexvimod.ElementsTheXVImod;
-
 @ElementsTheXVImod.ModElement.Tag
 public class ProcedureSkiddaleSkidoodlePotionStartedapplied extends ElementsTheXVImod.ModElement {
+
 	public ProcedureSkiddaleSkidoodlePotionStartedapplied(ElementsTheXVImod instance) {
 		super(instance, 61);
 	}
@@ -38,11 +28,13 @@ public class ProcedureSkiddaleSkidoodlePotionStartedapplied extends ElementsTheX
 			System.err.println("Failed to load dependency world for procedure SkiddaleSkidoodlePotionStartedapplied!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		world.playSound((EntityPlayer) null, x, y, z,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("entity.generic.drink")),
 				SoundCategory.NEUTRAL, (float) 1, (float) 1);
@@ -56,5 +48,7 @@ public class ProcedureSkiddaleSkidoodlePotionStartedapplied extends ElementsTheX
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.REGENERATION, (int) 50, (int) 2, (true), (true)));
 		if (entity instanceof EntityLivingBase)
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.RESISTANCE, (int) 50, (int) 2, (true), (true)));
+
 	}
+
 }

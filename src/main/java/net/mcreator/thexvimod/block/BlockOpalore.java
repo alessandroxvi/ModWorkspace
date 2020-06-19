@@ -53,7 +53,7 @@ public class BlockOpalore extends ElementsTheXVImod.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 11; i++) {
+		for (int i = 0; i < 3; i++) {
 			int x = chunkX + random.nextInt(16);
 			int y = random.nextInt(13) + 3;
 			int z = chunkZ + random.nextInt(16);

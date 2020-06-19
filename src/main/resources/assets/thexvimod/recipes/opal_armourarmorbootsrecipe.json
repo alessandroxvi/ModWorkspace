@@ -1,0 +1,26 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:opla"
+    },
+    "2": {
+      "item": "thexvimod:opla"
+    },
+    "3": {
+      "item": "thexvimod:opla"
+    },
+    "5": {
+      "item": "thexvimod:opla"
+    }
+  },
+  "result": {
+    "item": "thexvimod:opal_armourarmorboots",
+    "count": 1
+  }
+}

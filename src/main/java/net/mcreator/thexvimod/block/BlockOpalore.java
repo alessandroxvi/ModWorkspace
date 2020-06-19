@@ -35,7 +35,7 @@ public class BlockOpalore extends ElementsTheXVImod.ModElement {
 	@GameRegistry.ObjectHolder("thexvimod:opalore")
 	public static final Block block = null;
 	public BlockOpalore(ElementsTheXVImod instance) {
-		super(instance, 66);
+		super(instance, 68);
 	}
 
 	@Override
@@ -59,9 +59,9 @@ public class BlockOpalore extends ElementsTheXVImod.ModElement {
 			return;
 		for (int i = 0; i < 3; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(13) + 3;
+			int y = random.nextInt(16) + 0;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 6, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 4, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;
@@ -78,9 +78,9 @@ public class BlockOpalore extends ElementsTheXVImod.ModElement {
 			setUnlocalizedName("opalore");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 2);
-			setHardness(5F);
+			setHardness(7F);
 			setResistance(10F);
-			setLightLevel(0.49F);
+			setLightLevel(0.5F);
 			setLightOpacity(255);
 			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		}

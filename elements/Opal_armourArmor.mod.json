@@ -1,0 +1,47 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "opal_helmet",
+    "enableBody": true,
+    "textureBody": "opal_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "opal_armour_leggings",
+    "enableBoots": true,
+    "textureBoots": "opal_armour_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "opal_armoure",
+    "helmetName": "Opal_armour Helmet",
+    "bodyName": "Opal_armour Chestplate",
+    "leggingsName": "Opal_armour Leggings",
+    "bootsName": "Opal_armour Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 38,
+    "damageValueHelmet": 5,
+    "damageValueBody": 13,
+    "damageValueLeggings": 15,
+    "damageValueBoots": 5,
+    "enchantability": 23,
+    "toughness": 2.5,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

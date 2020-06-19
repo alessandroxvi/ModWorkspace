@@ -1,0 +1,36 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:opla"
+    },
+    "1": {
+      "item": "thexvimod:opla"
+    },
+    "2": {
+      "item": "thexvimod:opla"
+    },
+    "3": {
+      "item": "thexvimod:opla"
+    },
+    "5": {
+      "item": "thexvimod:opla"
+    },
+    "6": {
+      "item": "thexvimod:opla"
+    },
+    "8": {
+      "item": "thexvimod:opla"
+    }
+  },
+  "result": {
+    "item": "thexvimod:opal_armourarmorlegs",
+    "count": 1
+  }
+}

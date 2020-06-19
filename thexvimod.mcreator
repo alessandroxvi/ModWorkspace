@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 3,
-    "GUI": 6
+    "GUI": 6,
+    "ENTITY": 3
   },
   "mod_elements": [
     {
@@ -502,7 +502,7 @@
       "name": "Herobrine",
       "type": "mob",
       "sortid": 63,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {
         "0": 2,
@@ -521,7 +521,7 @@
       "name": "SkiddaleSkidoodlePotionStartedapplied",
       "type": "procedure",
       "sortid": 61,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "metadata": {
@@ -553,7 +553,7 @@
       "name": "Muramasa",
       "type": "tool",
       "sortid": 61,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     }

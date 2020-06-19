@@ -9,7 +9,7 @@
       "value": -11862081,
       "falpha": 0.0
     },
-    "isInstant": true,
+    "isInstant": false,
     "isBad": false,
     "isBenefitical": true,
     "registerPotionType": false,

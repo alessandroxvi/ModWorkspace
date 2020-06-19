@@ -11,8 +11,8 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.potion.Potion;
 import net.minecraft.item.ItemStack;
 import net.minecraft.init.Items;
+import net.minecraft.entity.ai.attributes.AbstractAttributeMap;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.Minecraft;
 
@@ -46,7 +46,7 @@ public class PotionSkiddaleSkidoodle extends ElementsTheXVImod.ModElement {
 
 		@Override
 		public boolean isInstant() {
-			return true;
+			return false;
 		}
 
 		@Override
@@ -67,7 +67,7 @@ public class PotionSkiddaleSkidoodle extends ElementsTheXVImod.ModElement {
 		}
 
 		@Override
-		public void affectEntity(Entity source, Entity indirectSource, EntityLivingBase entity, int amplifier, double health) {
+		public void applyAttributesModifiersToEntity(EntityLivingBase entity, AbstractAttributeMap attributeMapIn, int amplifier) {
 			World world = entity.world;
 			int x = (int) entity.posX;
 			int y = (int) entity.posY;

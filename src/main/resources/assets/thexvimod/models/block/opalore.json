@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thexvimod:blocks/opalore",
+    "up": "thexvimod:blocks/opalore",
+    "north": "thexvimod:blocks/opalore",
+    "east": "thexvimod:blocks/opalore",
+    "south": "thexvimod:blocks/opalore",
+    "west": "thexvimod:blocks/opalore",
+    "particle": "thexvimod:blocks/opalore"
+  }
+}

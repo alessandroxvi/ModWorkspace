@@ -529,6 +529,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Opalore",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -553,6 +561,7 @@
       "item.graphenearmorbody.name": "Graphene Chestplate",
       "advancements.getzircon.title": "Get Zircon",
       "item.zirconarmourarmorhelmet.name": "ZirconHelmet",
+      "tile.opalore.name": "Opalore",
       "tile.gunworkbench.name": "Gun Workbench",
       "item.zircontoolsshovel.name": "ZirconShovel",
       "item.pistonhead.name": "Pistonhead",

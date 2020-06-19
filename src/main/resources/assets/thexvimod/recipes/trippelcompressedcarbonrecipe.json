@@ -1,0 +1,26 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:doublecompressedcarbon"
+    },
+    "1": {
+      "item": "thexvimod:doublecompressedcarbon"
+    },
+    "2": {
+      "item": "thexvimod:doublecompressedcarbon"
+    },
+    "3": {
+      "item": "thexvimod:doublecompressedcarbon"
+    }
+  },
+  "result": {
+    "item": "thexvimod:triplecompressedcarbon",
+    "count": 1
+  }
+}

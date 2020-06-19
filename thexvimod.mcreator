@@ -1,7 +1,7 @@
 {
   "id_map": {
     "ENTITY": 1,
-    "GUI": 3
+    "GUI": 6
   },
   "mod_elements": [
     {
@@ -435,14 +435,6 @@
       "ids": {}
     },
     {
-      "name": "GunWorkbench",
-      "type": "block",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Reinforcedcobblestone",
       "type": "block",
       "sortid": 56,
@@ -489,6 +481,38 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Guncrafter",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GrapheneBlock",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TripleCompressedCarbon",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Trippelcompressedcarbonrecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -527,7 +551,6 @@
       "item.carboningot.name": "Carbon Ingot",
       "item.graphenesheet.name": "Graphene Sheet",
       "item.zirconarmourarmorboots.name": "ZirconBoots",
-      "item.muramasa.name": "Muramasa",
       "tile.zirconore.name": "Zircon Ore",
       "item.zirconarmourarmorlegs.name": "ZirconLeggings",
       "item.earfquake.name": "Earfquake",

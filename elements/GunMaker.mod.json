@@ -1,0 +1,123 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "GunWorkBench",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "GunWorkBench",
+          "x": 372,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 300,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 300,
+          "y": 186
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -10092340,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "name": "Slot #2",
+          "x": 516,
+          "y": 150
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Create",
+          "onClick": {
+            "name": "TransformTool"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Create",
+          "x": 372,
+          "y": 186
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tool",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Tool",
+          "x": 300,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Material",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Material",
+          "x": 282,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "output",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "output",
+          "x": 498,
+          "y": 114
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thexvimod:blocks/grapheneblock",
+    "up": "thexvimod:blocks/grapheneblock",
+    "north": "thexvimod:blocks/gunassembly",
+    "east": "thexvimod:blocks/gunworkbenchsides",
+    "south": "thexvimod:blocks/gunworkbenchsides",
+    "west": "thexvimod:blocks/gunworkbenchsides",
+    "particle": "thexvimod:blocks/grapheneblock"
+  }
+}

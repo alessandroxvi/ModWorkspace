@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 6,
+    "GUI": 7,
     "ENTITY": 3
   },
   "mod_elements": [
@@ -815,6 +815,60 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "GunMaker",
+      "type": "gui",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7
+      }
+    },
+    {
+      "name": "GunWorkBench",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TransformTool",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bamboo",
+      "type": "plant",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -837,8 +891,8 @@
       "advancements.getzircon.title": "Get Zircon",
       "item.opal_armourarmorlegs.name": "Opal_armour Leggings",
       "item.zircontoolsshovel.name": "ZirconShovel",
-      "item.graphenepickaxe.name": "Graphene Pickaxe",
       "item.redhoe.name": "Red Hoe",
+      "item.graphenepickaxe.name": "Graphene Pickaxe",
       "tile.reddiamondore.name": "Red Diamond Ore",
       "tile.zirconblock.name": "Zircon block",
       "tile.grapheneblock.name": "Graphene Block",
@@ -870,7 +924,7 @@
       "item.opal_toolssword.name": "Opal Sword",
       "item.zirconarmourarmorhelmet.name": "ZirconHelmet",
       "tile.opalore.name": "Opalore",
-      "tile.gunworkbench.name": "Gun Workbench",
+      "tile.gunworkbench.name": "Gun Work Bench",
       "item.pistonhead.name": "Pistonhead",
       "item.redarmorlegs.name": "Red Leggings",
       "item.opal_toolspickaxe.name": "Opal Pickaxe",
@@ -886,6 +940,7 @@
       "item.opal_toolsaxe.name": "Opal_tools Axe",
       "item.muramasa.name": "Muramasa",
       "advancements.getreddiamond.descr": "Shiny",
+      "tile.bamboo.name": "Bamboo",
       "tile.zirconore.name": "Zircon Ore",
       "item.earfquake.name": "Earfquake",
       "item.redaxe.name": "Red Axe",

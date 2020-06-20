@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=1": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=2": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=3": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=4": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=5": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=6": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=7": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=8": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=9": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=10": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=11": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=12": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=13": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=14": {
+      "model": "thexvimod:bamboo"
+    },
+    "age=15": {
+      "model": "thexvimod:bamboo"
+    }
+  }
+}

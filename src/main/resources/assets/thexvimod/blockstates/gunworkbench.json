@@ -1,21 +1,21 @@
 {
   "variants": {
     "normal": {
-      "model": "thexvimod:compressor"
+      "model": "thexvimod:gunworkbench"
     },
     "facing=north": {
-      "model": "thexvimod:compressor"
+      "model": "thexvimod:gunworkbench"
     },
     "facing=east": {
-      "model": "thexvimod:compressor",
+      "model": "thexvimod:gunworkbench",
       "y": 90
     },
     "facing=south": {
-      "model": "thexvimod:compressor",
+      "model": "thexvimod:gunworkbench",
       "y": 180
     },
     "facing=west": {
-      "model": "thexvimod:compressor",
+      "model": "thexvimod:gunworkbench",
       "y": 270
     }
   }

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "thexvimod:blocks/bamboo_stalk",
+    "particle": "thexvimod:blocks/bamboo_stalk"
+  }
+}

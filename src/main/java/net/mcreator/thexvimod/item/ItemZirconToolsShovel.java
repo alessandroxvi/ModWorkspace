@@ -29,7 +29,7 @@ public class ItemZirconToolsShovel extends ElementsTheXVImod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("ZIRCONTOOLSSHOVEL", 4, 6900, 10f, 2f, 15)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("ZIRCONTOOLSSHOVEL", 4, 6900, 10f, 2f, 28)) {
 			{
 				this.attackSpeed = -2f;
 			}

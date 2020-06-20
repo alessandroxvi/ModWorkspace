@@ -46,7 +46,7 @@ public class ItemZirconToolsAxe extends ElementsTheXVImod.ModElement {
 				.newHashSet(new Block[]{Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN,
 						Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
 		protected ItemToolCustom() {
-			super(EnumHelper.addToolMaterial("ZIRCONTOOLSAXE", 5, 6900, 10f, 2f, 15), effective_items_set);
+			super(EnumHelper.addToolMaterial("ZIRCONTOOLSAXE", 5, 6900, 10f, 2f, 28), effective_items_set);
 			this.attackDamage = 2f;
 			this.attackSpeed = -3f;
 		}

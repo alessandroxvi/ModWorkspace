@@ -29,7 +29,7 @@ public class ItemZirconToolsHoe extends ElementsTheXVImod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("ZIRCONTOOLSHOE", 2, 6900, 6f, 0f, 15)) {
+		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("ZIRCONTOOLSHOE", 2, 6900, 6f, 0f, 28)) {
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
 				ret.put("hoe", 2);

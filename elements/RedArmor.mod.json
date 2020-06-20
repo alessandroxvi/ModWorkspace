@@ -1,0 +1,47 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "red_head",
+    "enableBody": true,
+    "textureBody": "red_body",
+    "enableLeggings": true,
+    "textureLeggings": "red_leggings",
+    "enableBoots": true,
+    "textureBoots": "red_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "red",
+    "helmetName": "Red Helmet",
+    "bodyName": "Red Chestplate",
+    "leggingsName": "Red Leggings",
+    "bootsName": "Red Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 75,
+    "damageValueHelmet": 10,
+    "damageValueBody": 25,
+    "damageValueLeggings": 30,
+    "damageValueBoots": 10,
+    "enchantability": 45,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

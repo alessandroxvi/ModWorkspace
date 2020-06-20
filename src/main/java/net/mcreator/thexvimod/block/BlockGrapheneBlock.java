@@ -40,7 +40,7 @@ public class BlockGrapheneBlock extends ElementsTheXVImod.ModElement {
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.IRON);
+			super(Material.ROCK);
 			setUnlocalizedName("grapheneblock");
 			setSoundType(SoundType.METAL);
 			setHarvestLevel("pickaxe", 2);

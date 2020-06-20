@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "opal",
+    "texture": "reddiamond",
     "customModelName": "Normal",
-    "name": "Opal",
+    "name": "Red Diamond",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -18,7 +18,9 @@
     "stayInGridWhenCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "Shiny"
+    ],
     "hasGlow": true
   }
 }

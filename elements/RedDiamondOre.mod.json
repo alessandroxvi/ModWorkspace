@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "grapheneblock",
-    "textureTop": "grapheneblock",
-    "textureLeft": "grapheneblock",
-    "textureFront": "grapheneblock",
-    "textureRight": "grapheneblock",
-    "textureBack": "grapheneblock",
+    "texture": "reddiamondore",
+    "textureTop": "reddiamondore",
+    "textureLeft": "reddiamondore",
+    "textureFront": "reddiamondore",
+    "textureRight": "reddiamondore",
+    "textureBack": "reddiamondore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,10 +20,10 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Graphene Block",
+    "name": "Red Diamond Ore",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 20.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
@@ -56,11 +56,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -77,16 +77,18 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 12
   }
 }

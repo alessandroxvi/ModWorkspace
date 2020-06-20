@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thexvimod:blocks/reddiamondore",
+    "up": "thexvimod:blocks/reddiamondore",
+    "north": "thexvimod:blocks/reddiamondore",
+    "east": "thexvimod:blocks/reddiamondore",
+    "south": "thexvimod:blocks/reddiamondore",
+    "west": "thexvimod:blocks/reddiamondore",
+    "particle": "thexvimod:blocks/reddiamondore"
+  }
+}

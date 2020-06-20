@@ -1,0 +1,30 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:reddiamond"
+    },
+    "1": {
+      "item": "thexvimod:reddiamond"
+    },
+    "2": {
+      "item": "thexvimod:reddiamond"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "thexvimod:redaxe",
+    "count": 1
+  }
+}

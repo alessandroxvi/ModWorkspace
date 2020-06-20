@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 3,
-    "GUI": 6
+    "GUI": 6,
+    "ENTITY": 3
   },
   "mod_elements": [
     {
@@ -671,6 +671,150 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "RedDiamondOre",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedDiamond",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GetRedDiamond",
+      "type": "achievement",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedPickaxe",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedAxe",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedSword",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedShovel",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedHoe",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedAxeRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedSwordRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedShovelRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedHoeRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedArmor",
+      "type": "armor",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -694,16 +838,23 @@
       "item.opal_armourarmorlegs.name": "Opal_armour Leggings",
       "item.zircontoolsshovel.name": "ZirconShovel",
       "item.graphenepickaxe.name": "Graphene Pickaxe",
+      "item.redhoe.name": "Red Hoe",
+      "tile.reddiamondore.name": "Red Diamond Ore",
       "tile.zirconblock.name": "Zircon block",
       "tile.grapheneblock.name": "Graphene Block",
       "item.record.earfquake.desc": "Cause you make my earfquake",
       "item.carvingknife.name": "Carving Knife",
+      "item.redarmorbody.name": "Red Chestplate",
+      "item.redpickaxe.name": "Red Pickaxe",
       "item.carboningot.name": "Carbon Ingot",
       "item.graphenesheet.name": "Graphene Sheet",
+      "item.redarmorboots.name": "Red Boots",
       "item.opal_toolshoe.name": "Opal_tools Hoe",
-      "item.zirconarmourarmorboots.name": "ZirconBoots",
+      "item.redsword.name": "Red Sword",
       "item.opal_armourarmorboots.name": "Opal_armour Boots",
+      "item.zirconarmourarmorboots.name": "ZirconBoots",
       "item.zirconarmourarmorlegs.name": "ZirconLeggings",
+      "item.reddiamond.name": "Red Diamond",
       "tile.reinforcedcobblestone.name": "Reinforcedcobblestone",
       "item.graphenearmorhelmet.name": "Graphene Helmet",
       "tile.triplecompressedcarbon.name": "Triple Compressed Carbon Block",
@@ -714,12 +865,16 @@
       "item.grapheneaxe.name": "Graphene Axe",
       "item.graphenearmorboots.name": "Graphene Boots",
       "item.blowdartgun.name": "Blow Dart Gun",
+      "advancements.getreddiamond.title": "Find Red Diamond",
+      "item.redshovel.name": "Red Shovel",
       "item.opal_toolssword.name": "Opal Sword",
       "item.zirconarmourarmorhelmet.name": "ZirconHelmet",
       "tile.opalore.name": "Opalore",
       "tile.gunworkbench.name": "Gun Workbench",
       "item.pistonhead.name": "Pistonhead",
+      "item.redarmorlegs.name": "Red Leggings",
       "item.opal_toolspickaxe.name": "Opal Pickaxe",
+      "item.redarmorhelmet.name": "Red Helmet",
       "tile.carbon.name": "Carbon",
       "item.opla.name": "Opal",
       "item.opal_armourarmorhelmet.name": "Opal_armour Helmet",
@@ -730,8 +885,10 @@
       "item.zircontoolssword.name": "Zircon Sword",
       "item.opal_toolsaxe.name": "Opal_tools Axe",
       "item.muramasa.name": "Muramasa",
+      "advancements.getreddiamond.descr": "Shiny",
       "tile.zirconore.name": "Zircon Ore",
       "item.earfquake.name": "Earfquake",
+      "item.redaxe.name": "Red Axe",
       "item.zircontoolsaxe.name": "ZirconAxe",
       "item.graphenesword.name": "Graphene Sword"
     }

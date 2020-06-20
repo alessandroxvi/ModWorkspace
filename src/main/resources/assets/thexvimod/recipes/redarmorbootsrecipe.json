@@ -1,0 +1,26 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:reddiamond"
+    },
+    "2": {
+      "item": "thexvimod:reddiamond"
+    },
+    "3": {
+      "item": "thexvimod:reddiamond"
+    },
+    "5": {
+      "item": "thexvimod:reddiamond"
+    }
+  },
+  "result": {
+    "item": "thexvimod:redarmorboots",
+    "count": 1
+  }
+}

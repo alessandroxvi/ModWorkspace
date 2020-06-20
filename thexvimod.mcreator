@@ -929,6 +929,54 @@
           }
         ]
       }
+    },
+    {
+      "name": "AllahCommandExecuted",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Allah",
+      "type": "command",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BookOfWisdom",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -951,8 +999,8 @@
       "advancements.getzircon.title": "Get Zircon",
       "item.opal_armourarmorlegs.name": "Opal_armour Leggings",
       "item.zircontoolsshovel.name": "ZirconShovel",
-      "item.graphenepickaxe.name": "Graphene Pickaxe",
       "item.redhoe.name": "Red Hoe",
+      "item.graphenepickaxe.name": "Graphene Pickaxe",
       "tile.reddiamondore.name": "Red Diamond Ore",
       "tile.zirconblock.name": "Zircon block",
       "tile.grapheneblock.name": "Graphene Block",
@@ -992,6 +1040,7 @@
       "item.opal_toolspickaxe.name": "Opal Pickaxe",
       "item.redarmorhelmet.name": "Red Helmet",
       "tile.carbon.name": "Carbon",
+      "item.bookofwisdom.name": "Book Of Wisdom",
       "item.opla.name": "Opal",
       "item.opal_armourarmorhelmet.name": "Opal_armour Helmet",
       "item.zirconarmourarmorbody.name": "ZirconChestplate",

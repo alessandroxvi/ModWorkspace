@@ -2,21 +2,6 @@
   "variants": {
     "normal": {
       "model": "thexvimod:compressor"
-    },
-    "facing=north": {
-      "model": "thexvimod:compressor"
-    },
-    "facing=east": {
-      "model": "thexvimod:compressor",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "thexvimod:compressor",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "thexvimod:compressor",
-      "y": 270
     }
   }
 }

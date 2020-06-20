@@ -875,6 +875,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Ring",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -911,6 +919,7 @@
       "item.redarmorboots.name": "Red Boots",
       "item.opal_toolshoe.name": "Opal_tools Hoe",
       "item.redsword.name": "Red Sword",
+      "item.ring.name": "Ring",
       "item.opal_armourarmorboots.name": "Opal_armour Boots",
       "item.zirconarmourarmorboots.name": "ZirconBoots",
       "item.zirconarmourarmorlegs.name": "ZirconLeggings",

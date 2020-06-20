@@ -10,7 +10,7 @@
     "textureBack": "sidecompressor",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 1,
+    "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
     "mx": 0.0,

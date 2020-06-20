@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 7,
+    "GUI": 8,
     "ENTITY": 3
   },
   "mod_elements": [
@@ -32,14 +32,6 @@
       "name": "SingleCompressedCarbon",
       "type": "block",
       "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "SingleCompressedCarbonRecipe",
-      "type": "recipe",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -80,14 +72,6 @@
       "name": "DoubleCompressedCarbon",
       "type": "block",
       "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "DoubleCompressedCarbonRecipe",
-      "type": "recipe",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -470,14 +454,6 @@
       "name": "TripleCompressedCarbon",
       "type": "block",
       "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Trippelcompressedcarbonrecipe",
-      "type": "recipe",
-      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -899,6 +875,44 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Compress",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompressorGui",
+      "type": "gui",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 8
+      }
     },
     {
       "name": "SpeedRingItemInHandTick",

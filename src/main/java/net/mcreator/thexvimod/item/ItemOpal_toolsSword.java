@@ -34,7 +34,7 @@ public class ItemOpal_toolsSword extends ElementsTheXVImod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("OPAL_TOOLSSWORD", 4, 1250, 9f, 8f, 28)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("OPAL_TOOLSSWORD", 1, 1250, 9f, 5.5f, 28)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -49,7 +49,7 @@ public class ItemOpal_toolsSword extends ElementsTheXVImod.ModElement {
 
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("sword", 4);
+				ret.put("sword", 1);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("opal_toolssword").setRegistryName("opal_toolssword").setCreativeTab(CreativeTabs.COMBAT));

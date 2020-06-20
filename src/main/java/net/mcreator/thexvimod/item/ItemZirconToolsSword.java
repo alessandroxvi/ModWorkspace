@@ -34,7 +34,7 @@ public class ItemZirconToolsSword extends ElementsTheXVImod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("ZIRCONTOOLSSWORD", 2, 6900, 10f, 5f, 15)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("ZIRCONTOOLSSWORD", 2, 6900, 10f, 5f, 28)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);

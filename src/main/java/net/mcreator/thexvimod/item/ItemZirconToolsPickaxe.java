@@ -29,7 +29,7 @@ public class ItemZirconToolsPickaxe extends ElementsTheXVImod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("ZIRCONTOOLSPICKAXE", 6, 6900, 10f, -2f, 15)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("ZIRCONTOOLSPICKAXE", 6, 6900, 10f, -2f, 28)) {
 			{
 				this.attackSpeed = -3f;
 			}

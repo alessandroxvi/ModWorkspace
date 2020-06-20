@@ -29,7 +29,7 @@ public class ItemOpal_toolsHoe extends ElementsTheXVImod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("OPAL_TOOLSHOE", 4, 660, 9f, 0f, 28)) {
+		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("OPAL_TOOLSHOE", 4, 1250, 11f, 0f, 28)) {
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
 				ret.put("hoe", 4);

@@ -29,7 +29,7 @@ public class ItemOpal_toolsPickaxe extends ElementsTheXVImod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("OPAL_TOOLSPICKAXE", 4, 660, 9f, 0f, 28)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("OPAL_TOOLSPICKAXE", 4, 1250, 12f, 0f, 28)) {
 			{
 				this.attackSpeed = -3f;
 			}

@@ -3,21 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "opal_tools_sword",
+    "texture": "opal_swordd",
     "customModelName": "Normal",
-    "name": "Opal_tools Sword",
+    "name": "Opal Sword",
     "creativeTab": {
       "value": "COMBAT"
     },
     "toolType": "Sword",
     "harvestLevel": 4,
     "efficiency": 9.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1.5,
     "enchantability": 28,
-    "damageVsEntity": 4.0,
-    "usageCount": 660,
+    "damageVsEntity": 12.0,
+    "usageCount": 1250,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Opla"
+      }
+    ]
   }
 }

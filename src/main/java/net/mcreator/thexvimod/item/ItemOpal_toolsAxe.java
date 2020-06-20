@@ -46,9 +46,9 @@ public class ItemOpal_toolsAxe extends ElementsTheXVImod.ModElement {
 				.newHashSet(new Block[]{Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN,
 						Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
 		protected ItemToolCustom() {
-			super(EnumHelper.addToolMaterial("OPAL_TOOLSAXE", 4, 660, 9f, 0f, 28), effective_items_set);
-			this.attackDamage = 0f;
-			this.attackSpeed = -3f;
+			super(EnumHelper.addToolMaterial("OPAL_TOOLSAXE", 4, 1250, 11f, 9f, 28), effective_items_set);
+			this.attackDamage = 9f;
+			this.attackSpeed = -2.7999999999999998f;
 		}
 
 		@Override

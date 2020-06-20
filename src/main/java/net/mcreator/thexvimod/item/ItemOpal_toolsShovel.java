@@ -29,13 +29,13 @@ public class ItemOpal_toolsShovel extends ElementsTheXVImod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("OPAL_TOOLSSHOVEL", 4, 660, 9f, 0f, 28)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("OPAL_TOOLSSHOVEL", 5, 1250, 11f, 0f, 28)) {
 			{
 				this.attackSpeed = -3f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("spade", 4);
+				ret.put("spade", 5);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("opal_toolsshovel").setRegistryName("opal_toolsshovel").setCreativeTab(CreativeTabs.TOOLS));

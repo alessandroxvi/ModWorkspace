@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "opal_tools_axe",
+    "texture": "opal_axxe",
     "customModelName": "Normal",
     "name": "Opal_tools Axe",
     "creativeTab": {
@@ -11,13 +11,17 @@
     },
     "toolType": "Axe",
     "harvestLevel": 4,
-    "efficiency": 9.0,
-    "attackSpeed": 1.0,
+    "efficiency": 11.0,
+    "attackSpeed": 1.2000000000000002,
     "enchantability": 28,
-    "damageVsEntity": 4.0,
-    "usageCount": 660,
+    "damageVsEntity": 13.0,
+    "usageCount": 1250,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Opla"
+      }
+    ]
   }
 }

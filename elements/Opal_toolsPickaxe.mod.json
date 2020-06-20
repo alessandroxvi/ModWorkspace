@@ -3,21 +3,25 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "opal_tools_pickaxe",
+    "texture": "opal_pick",
     "customModelName": "Normal",
-    "name": "Opal_tools Pickaxe",
+    "name": "Opal Pickaxe",
     "creativeTab": {
       "value": "TOOLS"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 4,
-    "efficiency": 9.0,
+    "efficiency": 12.0,
     "attackSpeed": 1.0,
     "enchantability": 28,
     "damageVsEntity": 4.0,
-    "usageCount": 660,
+    "usageCount": 1250,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Opla"
+      }
+    ]
   }
 }

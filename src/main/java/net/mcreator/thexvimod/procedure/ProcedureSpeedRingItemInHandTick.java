@@ -20,6 +20,6 @@ public class ProcedureSpeedRingItemInHandTick extends ElementsTheXVImod.ModEleme
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityLivingBase)
-			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 1e+215, (int) 5));
+			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 1, (int) 5));
 	}
 }

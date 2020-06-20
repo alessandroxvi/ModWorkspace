@@ -87,7 +87,7 @@ public class BlockOpalore extends ElementsTheXVImod.ModElement {
 
 		@Override
 		public int tickRate(World world) {
-			return 1;
+			return 0;
 		}
 
 		@Override

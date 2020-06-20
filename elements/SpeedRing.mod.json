@@ -21,6 +21,9 @@
     "specialInfo": [
       "used in red boots"
     ],
-    "hasGlow": false
+    "hasGlow": false,
+    "onItemInUseTick": {
+      "name": "SpeedRingItemInHandTick"
+    }
   }
 }

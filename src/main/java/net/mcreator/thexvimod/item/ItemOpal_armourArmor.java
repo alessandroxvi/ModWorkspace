@@ -33,7 +33,7 @@ public class ItemOpal_armourArmor extends ElementsTheXVImod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("OPAL_ARMOURARMOR", "thexvimod:opal_armoure", 38, new int[]{5, 15, 13, 5}, 23,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("OPAL_ARMOURARMOR", "thexvimod:opal_armoure", 38, new int[]{6, 12, 16, 8}, 23,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 2.5f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("opal_armourarmorhelmet")
 				.setRegistryName("opal_armourarmorhelmet").setCreativeTab(CreativeTabs.COMBAT));

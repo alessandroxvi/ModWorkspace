@@ -7,9 +7,9 @@
     "enableBody": true,
     "textureBody": "opal_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "opal_armour_leggings",
+    "textureLeggings": "opal_leggin",
     "enableBoots": true,
-    "textureBoots": "opal_armour_boots",
+    "textureBoots": "opal_boot",
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -33,15 +33,19 @@
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
     "maxDamage": 38,
-    "damageValueHelmet": 5,
-    "damageValueBody": 13,
-    "damageValueLeggings": 15,
-    "damageValueBoots": 5,
+    "damageValueHelmet": 8,
+    "damageValueBody": 16,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 6,
     "enchantability": 23,
     "toughness": 2.5,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Opla"
+      }
+    ]
   }
 }

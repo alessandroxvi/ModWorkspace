@@ -10,11 +10,14 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.world.World;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.Entity;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import net.mcreator.thexvimod.procedure.ProcedureSpeedRingItemInHandTick;
 import net.mcreator.thexvimod.ElementsTheXVImod;
 
 import java.util.List;
@@ -65,6 +68,19 @@ public class ItemSpeedRing extends ElementsTheXVImod.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add("used in red boots");
+		}
+
+		@Override
+		public void onUpdate(ItemStack itemstack, World world, Entity entity, int slot, boolean par5) {
+			super.onUpdate(itemstack, world, entity, slot, par5);
+			int x = (int) entity.posX;
+			int y = (int) entity.posY;
+			int z = (int) entity.posZ;
+			if (entity instanceof EntityLivingBase && ((EntityLivingBase) entity).getHeldItemMainhand().equals(itemstack)) {
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureSpeedRingItemInHandTick.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

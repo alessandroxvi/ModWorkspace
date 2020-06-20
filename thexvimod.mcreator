@@ -899,6 +899,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SpeedRingItemInHandTick",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -921,8 +937,8 @@
       "advancements.getzircon.title": "Get Zircon",
       "item.opal_armourarmorlegs.name": "Opal_armour Leggings",
       "item.zircontoolsshovel.name": "ZirconShovel",
-      "item.redhoe.name": "Red Hoe",
       "item.graphenepickaxe.name": "Graphene Pickaxe",
+      "item.redhoe.name": "Red Hoe",
       "tile.reddiamondore.name": "Red Diamond Ore",
       "tile.zirconblock.name": "Zircon block",
       "tile.grapheneblock.name": "Graphene Block",

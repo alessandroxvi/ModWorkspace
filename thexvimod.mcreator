@@ -977,6 +977,38 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SpeedfetherItemInHandTick",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Speedfether",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Speedfetherrecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -999,9 +1031,10 @@
       "advancements.getzircon.title": "Get Zircon",
       "item.opal_armourarmorlegs.name": "Opal_armour Leggings",
       "item.zircontoolsshovel.name": "ZirconShovel",
-      "item.redhoe.name": "Red Hoe",
       "item.graphenepickaxe.name": "Graphene Pickaxe",
+      "item.redhoe.name": "Red Hoe",
       "tile.reddiamondore.name": "Red Diamond Ore",
+      "item.speedfether.name": "Speedfether",
       "tile.zirconblock.name": "Zircon block",
       "tile.grapheneblock.name": "Graphene Block",
       "item.record.earfquake.desc": "Cause you make my earfquake",

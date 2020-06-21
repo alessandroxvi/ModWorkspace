@@ -1,12 +1,28 @@
 
 package net.mcreator.thexvimod.item;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.Entity;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
+
+import net.mcreator.thexvimod.procedure.ProcedureSpeedfetherItemInHandTick;
+import net.mcreator.thexvimod.ElementsTheXVImod;
+
 @ElementsTheXVImod.ModElement.Tag
 public class ItemSpeedfether extends ElementsTheXVImod.ModElement {
-
 	@GameRegistry.ObjectHolder("thexvimod:speedfether")
 	public static final Item block = null;
-
 	public ItemSpeedfether(ElementsTheXVImod instance) {
 		super(instance, 113);
 	}
@@ -21,9 +37,7 @@ public class ItemSpeedfether extends ElementsTheXVImod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("thexvimod:speedfether", "inventory"));
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 1;
@@ -56,11 +70,8 @@ public class ItemSpeedfether extends ElementsTheXVImod.ModElement {
 			if (entity instanceof EntityLivingBase && ((EntityLivingBase) entity).getHeldItemMainhand().equals(itemstack)) {
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
-
 				ProcedureSpeedfetherItemInHandTick.executeProcedure($_dependencies);
 			}
 		}
-
 	}
-
 }

@@ -1,8 +1,24 @@
 package net.mcreator.thexvimod.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.tileentity.TileEntityLockableLoot;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.init.Items;
+import net.minecraft.init.Blocks;
+
+import net.mcreator.thexvimod.item.ItemGrapheneIngot;
+import net.mcreator.thexvimod.item.ItemCarbonIngot;
+import net.mcreator.thexvimod.block.BlockTripleCompressedCarbon;
+import net.mcreator.thexvimod.block.BlockSingleCompressedCarbon;
+import net.mcreator.thexvimod.block.BlockReinforcedcobblestone;
+import net.mcreator.thexvimod.block.BlockGunWorkBench;
+import net.mcreator.thexvimod.block.BlockDoubleCompressedCarbon;
+import net.mcreator.thexvimod.ElementsTheXVImod;
+
 @ElementsTheXVImod.ModElement.Tag
 public class ProcedureCompress extends ElementsTheXVImod.ModElement {
-
 	public ProcedureCompress(ElementsTheXVImod instance) {
 		super(instance, 110);
 	}
@@ -24,12 +40,10 @@ public class ProcedureCompress extends ElementsTheXVImod.ModElement {
 			System.err.println("Failed to load dependency world for procedure Compress!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if ((((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				TileEntity inv = world.getTileEntity(pos);
@@ -548,7 +562,5 @@ public class ProcedureCompress extends ElementsTheXVImod.ModElement {
 					((TileEntityLockableLoot) inv).decrStackSize((int) (3), (int) (1));
 			}
 		}
-
 	}
-
 }

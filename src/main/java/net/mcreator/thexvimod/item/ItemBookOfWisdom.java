@@ -1,12 +1,28 @@
 
 package net.mcreator.thexvimod.item;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
+
+import net.mcreator.thexvimod.ElementsTheXVImod;
+
+import java.util.List;
+
 @ElementsTheXVImod.ModElement.Tag
 public class ItemBookOfWisdom extends ElementsTheXVImod.ModElement {
-
 	@GameRegistry.ObjectHolder("thexvimod:bookofwisdom")
 	public static final Item block = null;
-
 	public ItemBookOfWisdom(ElementsTheXVImod instance) {
 		super(instance, 112);
 	}
@@ -21,9 +37,7 @@ public class ItemBookOfWisdom extends ElementsTheXVImod.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("thexvimod:bookofwisdom", "inventory"));
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			setMaxDamage(0);
 			maxStackSize = 64;
@@ -52,7 +66,5 @@ public class ItemBookOfWisdom extends ElementsTheXVImod.ModElement {
 			super.addInformation(itemstack, world, list, flag);
 			list.add("Right Click");
 		}
-
 	}
-
 }

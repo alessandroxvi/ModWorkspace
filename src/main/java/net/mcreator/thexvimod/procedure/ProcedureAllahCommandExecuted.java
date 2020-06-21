@@ -1,8 +1,17 @@
 package net.mcreator.thexvimod.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.init.Blocks;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.effect.EntityLightningBolt;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.thexvimod.ElementsTheXVImod;
+
 @ElementsTheXVImod.ModElement.Tag
 public class ProcedureAllahCommandExecuted extends ElementsTheXVImod.ModElement {
-
 	public ProcedureAllahCommandExecuted(ElementsTheXVImod instance) {
 		super(instance, 111);
 	}
@@ -28,13 +37,11 @@ public class ProcedureAllahCommandExecuted extends ElementsTheXVImod.ModElement 
 			System.err.println("Failed to load dependency world for procedure AllahCommandExecuted!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		for (int index0 = 0; index0 < (int) (5); index0++) {
 			world.addWeatherEffect(new EntityLightningBolt(world, (int) x, (int) y, (int) z, false));
 		}
@@ -44,9 +51,6 @@ public class ProcedureAllahCommandExecuted extends ElementsTheXVImod.ModElement 
 			if (entity instanceof EntityPlayerMP)
 				((EntityPlayerMP) entity).inventory.markDirty();
 		}
-
-		/*@ItemStack*/
-
+		/* @ItemStack */
 	}
-
 }

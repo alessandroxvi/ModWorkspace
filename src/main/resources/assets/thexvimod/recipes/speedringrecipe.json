@@ -1,0 +1,42 @@
+{
+  "group": "thexvimod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "thexvimod:speedfether"
+    },
+    "1": {
+      "item": "thexvimod:speedfether"
+    },
+    "2": {
+      "item": "thexvimod:speedfether"
+    },
+    "3": {
+      "item": "thexvimod:speedfether"
+    },
+    "4": {
+      "item": "thexvimod:ring"
+    },
+    "5": {
+      "item": "thexvimod:speedfether"
+    },
+    "6": {
+      "item": "thexvimod:speedfether"
+    },
+    "7": {
+      "item": "thexvimod:speedfether"
+    },
+    "8": {
+      "item": "thexvimod:speedfether"
+    }
+  },
+  "result": {
+    "item": "thexvimod:speedring",
+    "count": 1
+  }
+}

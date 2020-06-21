@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Speedfether"
+      },
+      {
+        "value": "CUSTOM:Speedfether"
+      },
+      {
+        "value": "CUSTOM:Speedfether"
+      },
+      {
+        "value": "CUSTOM:Speedfether"
+      },
+      {
+        "value": "CUSTOM:Ring"
+      },
+      {
+        "value": "CUSTOM:Speedfether"
+      },
+      {
+        "value": "CUSTOM:Speedfether"
+      },
+      {
+        "value": "CUSTOM:Speedfether"
+      },
+      {
+        "value": "CUSTOM:Speedfether"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpeedRing"
+    },
+    "name": "speedringrecipe",
+    "namespace": "mod"
+  }
+}

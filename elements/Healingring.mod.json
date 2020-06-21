@@ -3,13 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bestopal",
+    "texture": "healingorb",
     "customModelName": "Normal",
-    "name": "Opal",
+    "name": "Healingring",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "MISC"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -19,6 +19,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": true
+    "hasGlow": false,
+    "onItemInUseTick": {
+      "name": "HealingringItemInHandTick"
+    }
   }
 }

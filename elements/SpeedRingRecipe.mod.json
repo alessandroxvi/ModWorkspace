@@ -9,37 +9,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Speedfether"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Speedfether"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Speedfether"
       },
       {
-        "value": "CUSTOM:DoubleCompressedCarbon"
+        "value": "CUSTOM:Speedfether"
       },
       {
-        "value": "CUSTOM:DoubleCompressedCarbon"
+        "value": "CUSTOM:Ring"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Speedfether"
       },
       {
-        "value": "CUSTOM:DoubleCompressedCarbon"
+        "value": "CUSTOM:Speedfether"
       },
       {
-        "value": "CUSTOM:DoubleCompressedCarbon"
+        "value": "CUSTOM:Speedfether"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Speedfether"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TripleCompressedCarbon"
+      "value": "CUSTOM:SpeedRing"
     },
-    "name": "trippelcompressedcarbonrecipe",
+    "name": "speedringrecipe",
     "namespace": "mod"
   }
 }

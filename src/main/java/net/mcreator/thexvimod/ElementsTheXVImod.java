@@ -35,6 +35,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
 import net.mcreator.thexvimod.gui.GuiGunMaker;
+import net.mcreator.thexvimod.gui.GuiCompressorGui;
 
 import java.util.function.Supplier;
 import java.util.Random;
@@ -127,6 +128,8 @@ public class ElementsTheXVImod implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiGunMaker.GUIID)
 				return new GuiGunMaker.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiCompressorGui.GUIID)
+				return new GuiCompressorGui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -134,6 +137,8 @@ public class ElementsTheXVImod implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiGunMaker.GUIID)
 				return new GuiGunMaker.GuiWindow(world, x, y, z, player);
+			if (id == GuiCompressorGui.GUIID)
+				return new GuiCompressorGui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

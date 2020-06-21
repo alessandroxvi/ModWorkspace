@@ -1017,6 +1017,30 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "HealingringItemInHandTick",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Healingring",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1073,6 +1097,7 @@
       "advancements.getreddiamond.title": "Find Red Diamond",
       "item.redshovel.name": "Red Shovel",
       "item.opal_toolssword.name": "Opal Sword",
+      "item.healingring.name": "Healingring",
       "item.zirconarmourarmorhelmet.name": "ZirconHelmet",
       "tile.opalore.name": "Opalore",
       "tile.gunworkbench.name": "Gun Work Bench",

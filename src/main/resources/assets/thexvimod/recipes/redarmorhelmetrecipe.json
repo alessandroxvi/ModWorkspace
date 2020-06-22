@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3 5"
+    "345"
   ],
   "key": {
     "0": {
@@ -17,6 +17,9 @@
     },
     "3": {
       "item": "thexvimod:reddiamond"
+    },
+    "4": {
+      "item": "thexvimod:healingring"
     },
     "5": {
       "item": "thexvimod:reddiamond"

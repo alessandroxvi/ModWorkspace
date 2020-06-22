@@ -21,7 +21,5 @@ public class ProcedureHealingringItemInHandTick extends ElementsTheXVImod.ModEle
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityLivingBase)
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.REGENERATION, (int) 1, (int) 1));
-		if (entity instanceof EntityLivingBase)
-			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.STRENGTH, (int) 1, (int) 1));
 	}
 }
